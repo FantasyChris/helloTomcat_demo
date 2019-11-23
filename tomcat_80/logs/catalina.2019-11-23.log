@@ -1,0 +1,372 @@
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_144\jre
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\tomcat_80
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\tomcat_80
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\tomcat_80\conf\logging.properties
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\tomcat_80\endorsed
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\tomcat_80
+十一月 23, 2019 10:36:39 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\tomcat_80
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\tomcat_80\temp
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\jdk1.8.0_144\bin;.;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\java\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Chen\AppData\Local\Programs\Fiddler;.
+十一月 23, 2019 10:36:40 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:36:40 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 673 ms
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloServlet
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [309] milliseconds.
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloServlet has finished in 692 ms
+十一月 23, 2019 10:36:40 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:36:40 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:36:40 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 773 ms
+十一月 23, 2019 10:38:51 上午 org.apache.catalina.startup.HostConfig reload
+信息: Reloading context [/helloServlet]
+十一月 23, 2019 10:38:51 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [/helloServlet] has started
+十一月 23, 2019 10:38:51 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [/helloServlet] is completed
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_144\jre
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\tomcat_80
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\tomcat_80
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\tomcat_80\conf\logging.properties
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\tomcat_80\endorsed
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\tomcat_80
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\tomcat_80
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\tomcat_80\temp
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\jdk1.8.0_144\bin;.;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\java\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Chen\AppData\Local\Programs\Fiddler;.
+十一月 23, 2019 10:39:43 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:39:43 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 659 ms
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+十一月 23, 2019 10:39:43 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloServlet
+十一月 23, 2019 10:39:44 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [265] milliseconds.
+十一月 23, 2019 10:39:44 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloServlet has finished in 624 ms
+十一月 23, 2019 10:39:44 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:39:44 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:39:44 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 684 ms
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_144\jre
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\tomcat_80
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\tomcat_80
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\tomcat_80\conf\logging.properties
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\tomcat_80\endorsed
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\tomcat_80
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\tomcat_80
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\tomcat_80\temp
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\jdk1.8.0_144\bin;.;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\java\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Chen\AppData\Local\Programs\Fiddler;.
+十一月 23, 2019 10:40:14 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:40:14 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 612 ms
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+十一月 23, 2019 10:40:14 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloServlet
+十一月 23, 2019 10:40:15 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [281] milliseconds.
+十一月 23, 2019 10:40:15 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloServlet has finished in 663 ms
+十一月 23, 2019 10:40:15 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:40:15 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:40:15 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 745 ms
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_144\jre
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\tomcat_80
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\tomcat_80
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\tomcat_80\conf\logging.properties
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\tomcat_80\endorsed
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\tomcat_80
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\tomcat_80
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\tomcat_80\temp
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\jdk1.8.0_144\bin;.;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\java\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Chen\AppData\Local\Programs\Fiddler;.
+十一月 23, 2019 10:43:18 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:43:18 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 675 ms
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+十一月 23, 2019 10:43:18 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloServlet
+十一月 23, 2019 10:43:19 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [295] milliseconds.
+十一月 23, 2019 10:43:19 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloServlet has finished in 685 ms
+十一月 23, 2019 10:43:19 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 10:43:19 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 10:43:19 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 771 ms
+十一月 23, 2019 11:29:50 上午 org.apache.catalina.startup.HostConfig reload
+信息: Reloading context [/helloServlet]
+十一月 23, 2019 11:29:50 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [/helloServlet] has started
+十一月 23, 2019 11:29:50 上午 org.apache.catalina.core.StandardContext reload
+信息: Reloading Context with name [/helloServlet] is completed
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_144\jre
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\tomcat_80
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\tomcat_80
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\tomcat_80\conf\logging.properties
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\tomcat_80\endorsed
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\tomcat_80
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\tomcat_80
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\tomcat_80\temp
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\jdk1.8.0_144\bin;.;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\java\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Chen\AppData\Local\Programs\Fiddler;.
+十一月 23, 2019 11:30:03 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 11:30:03 上午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 742 ms
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+十一月 23, 2019 11:30:03 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloServlet
+十一月 23, 2019 11:30:04 上午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [318] milliseconds.
+十一月 23, 2019 11:30:04 上午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloServlet has finished in 747 ms
+十一月 23, 2019 11:30:04 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 11:30:04 上午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 11:30:04 上午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 834 ms
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          amd64
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             C:\jdk1.8.0_144\jre
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_144-b01
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         D:\tomcat_80
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         D:\tomcat_80
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=D:\tomcat_80\conf\logging.properties
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=D:\tomcat_80\endorsed
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=D:\tomcat_80
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=D:\tomcat_80
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=D:\tomcat_80\temp
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;c:\jdk1.8.0_144\bin;.;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\jdk1.8.0_144\bin;C:\Program Files\Git\cmd;C:\Windows\system32;C:\Windows;C:\Windows\system32\wbem;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\java\apache-maven-3.5.3-bin\apache-maven-3.5.3/bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Users\Chen\AppData\Local\Programs\Fiddler;.
+十一月 23, 2019 12:16:03 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 12:16:03 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 678 ms
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+十一月 23, 2019 12:16:03 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloServlet
+十一月 23, 2019 12:16:04 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [298] milliseconds.
+十一月 23, 2019 12:16:04 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloServlet has finished in 695 ms
+十一月 23, 2019 12:16:04 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-80"]
+十一月 23, 2019 12:16:04 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+十一月 23, 2019 12:16:04 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 778 ms
+十一月 23, 2019 12:16:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\web
+十一月 23, 2019 12:16:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\web has finished in 101 ms
+十一月 23, 2019 12:17:34 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/web]
+十一月 23, 2019 12:17:45 下午 org.apache.catalina.startup.HostConfig undeploy
+信息: Undeploying context [/helloServlet]
+十一月 23, 2019 12:17:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\tomcat_80\webapps\helloTomcat
+十一月 23, 2019 12:17:45 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory D:\tomcat_80\webapps\helloTomcat has finished in 81 ms
